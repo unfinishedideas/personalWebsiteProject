@@ -5,17 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Peter Wells Personal Page</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <script src="/scripts/siteLogic.js"></script>
   </head>
   <body>
     <main>
-        <nav>
+      <nav id="navbar">
+        <!-- <h4 id="nav-header">PETER WELLS</h4> -->
+        <a href="#navbar">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
-        </nav>
-        
-        <footer>
+      <div id="billboard" class="section">
+        <h1>Pete's Space</h1>
+        <h2>A personal page for Peter Wells</h2>
+      </div>
 
-        </footer>
+      <div id="about" class="section">
+        <h3 class="section-header">About</h3>
+        <h4 class="section-subtitle">A little about me</h4>
+        <p>
+          Greetings! My name is Peter Wells and I am a graduate student in the
+          Computer Science program at Portland State University. I began my
+          journey here as a post-baccalaureate student to learn how to write
+          great software. After working my way through the required undergrad,
+          I've now began the master's program in hopes of gaining the knowledge
+          that can help me pursue a career in software development.
+        </p>
+        <p>
+          Aside from school, I am now participating in an internship with
+          Northwest Evaluation Association (NWEA) as a back-end software
+          developer. NWEA is a national company that helps evaluate student's
+          progress in various subjects in school and generate reports to help
+          guide their education. This is an issue I am passionate about as I
+          believe there is a lot more we can be doing to promote education
+          nationally. I have just began there, but the type of projects I will
+          be working on involve migrating services to reduce overhead cost of
+          operating such a large database and I am excited to work on an
+          enterprise level project.
+        </p>
+        <p>
+          Outside of work, you can find me participating in the Portland music
+          scene in a variety of ways. I like to make music at home, play drums
+          in local bands across town and have even worked as an audio engineer
+          in the past. Beyond that, I am an avid gamer and plan on making some
+          games of my own as well.
+        </p>
+        <p>
+          I believe that software can be a powerful tool to enrich people's
+          lives and help guide us to solutions to problems that may be otherwise
+          impossible to discover. To that end, I have always had an interest in
+          learning how software like this can be built, how it can interact with
+          us in our lives, and am excited for the future.
+        </p>
+      </div>
+
+      <div id="projects" class="section">
+        <h3 class="section-header">Projects</h3>
+        <h4 class="section-subtitle">Some projects I've completed</h4>
+      </div>
+
+      <div id="contact" class="section">
+        <h3 class="section-header">Contact</h3>
+        <h4 class="section-subtitle">Let's connect!</h4>
+
+        <form id="contact-form">
+          <div class="form-element">
+            <label for="name">Name:</label>
+            <input type="text" id="name" />
+          </div>
+
+          <div class="form-element">
+            <label for="email">Email:</label>
+            <input type="email" id="email" />
+          </div>
+
+          <div class="form-element">
+            <label for="message">Message:</label>
+            <input type="text" id="message" />
+          </div>
+
+          <div class="form-element">
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+          </div>
+        </form>
+      </div>
+      <footer></footer>
     </main>
   </body>
 </html>

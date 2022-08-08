@@ -1,0 +1,70 @@
+/* NAV BAR */
+:root {
+    /* --richBlack: #113537;
+    --charcoal: #37505C;
+    --mauveTaupe: #96616B;
+    --ultraRed: #F76F8E;
+    --blanchAlmond: #FFEAD0; */
+
+    /* --oceanGreen: #61C9A8;
+    --maroon: #A53860;
+    --englishViolet: #4C3B4D;
+    --antiqueWhite: #FFEEDB;
+    --silverMetallic: #ADA8B6; */
+
+    --primary: #7719e6;
+    --purp2: #BA7DFF;
+    --purp3: #A55FF5;
+    --secondary: #F5F35F;
+    --yellow2: #A8A720;
+    --accent: #88E619;
+
+    --white: #ffffff;
+    --gray1: #333333;
+    --gray2: #555555;
+    --gray3: #cccccc;
+    --gray4: #aaaaaa;
+    --black: #000000;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+nav {
+    padding: 15px;
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+nav > a {
+    color: var(--secondary);
+}
+
+#nav-header{
+    /* display: inline-block; */
+    font-size: 28px;
+    margin: 0;
+    /* color: red; */
+}
+
+/* JUMBO */
+#billboard {
+    background-color: var(--gray1);
+    color: var(--white)
+}
+
+/* SECTIONS */
+.section {
+    padding: 20px;
+}
+
+.section-header {
+
+}
+
+/* FORM */
+.form-element {
+
+}

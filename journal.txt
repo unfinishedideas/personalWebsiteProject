@@ -1,1 +1,7 @@
 - Copied html template from homework
+- Used: https://coolors.co/ to develop color scheme
+- Decided against coolors in favor of experimenting with color wheel
+- https://www.flux-academy.com/blog/how-to-strategically-use-color-in-website-design
+- https://www.canva.com/colors/color-wheel/
+- https://xd.adobe.com/ideas/principles/web-design/best-modern-fonts-for-websites/
+- 
