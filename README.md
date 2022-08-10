@@ -5,7 +5,7 @@ Deployment link: [I HAVENT DEPLOYED YET!!! HOPEFULLY I SEE THIS BEFORE I POST TH
 
 ## Description
 
-This is project is a professional profile website for Peter Wells. It features information about myself as well as various projects I want to showcase. Uses a great deal of Flexbox and Bootstrap Grids for responsive layout.
+This is project is a professional profile website for Pete Wells. It features information about myself as well as various projects I want to showcase. Uses a great deal of Flexbox and Bootstrap Grids for responsive layout.
 
 ## Running
 

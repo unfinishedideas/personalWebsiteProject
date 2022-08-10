@@ -14,6 +14,7 @@
 - 8/9 4:39   - https://developers.google.com/fonts/docs/getting_started / https://fonts.google.com/betterspecimen/Roboto?sort=popularity
 - 8/9 4:59   - Set background image
 - 8/9 7:20   - Added fonts
+
 - 8/9 8:25   - Started filling out project section. Added images
 - 8/9 10:00  - Found more images for myself, major design overhaul
 - 8/9 11:30  - Lots of bootstrap involved now, using grid and col sizes to size up page: https://getbootstrap.com/docs/4.0/layout/grid/
@@ -25,4 +26,5 @@ LEFT TO DO:
 * Connect to the JavaScript backend
 * Create some kind of JS animation (folding project drawers?)
 * Deploy
-* Update README.md with the correct deployment link
+* Update README.md with the correct deployment link\
+* Finish journal
