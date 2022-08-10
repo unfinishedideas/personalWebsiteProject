@@ -4,4 +4,11 @@
 - https://www.flux-academy.com/blog/how-to-strategically-use-color-in-website-design
 - https://www.canva.com/colors/color-wheel/
 - https://xd.adobe.com/ideas/principles/web-design/best-modern-fonts-for-websites/
-- 
+- 8/8 10:18 attempted pdf, looked bad, decided on standard section for resume
+- 8/8 10:40 added in previous work section, used resume
+
+- 8/9 4:04 - commented out styling for redesign, looked at some examples here: https://blog.hubspot.com/marketing/best-personal-websites
+- 8/9 4:19 - https://www.sliderrevolution.com/design/website-header/
+- 8/9 4:30 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- 8/9 4:39 - https://developers.google.com/fonts/docs/getting_started / https://fonts.google.com/betterspecimen/Roboto?sort=popularity
+- 8/9 4:59 - Set background image

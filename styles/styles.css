@@ -1,70 +1,154 @@
-/* NAV BAR */
 :root {
-    /* --richBlack: #113537;
+  /* --richBlack: #113537;
     --charcoal: #37505C;
     --mauveTaupe: #96616B;
     --ultraRed: #F76F8E;
     --blanchAlmond: #FFEAD0; */
 
-    /* --oceanGreen: #61C9A8;
+  /* --oceanGreen: #61C9A8;
     --maroon: #A53860;
     --englishViolet: #4C3B4D;
     --antiqueWhite: #FFEEDB;
     --silverMetallic: #ADA8B6; */
 
-    --primary: #7719e6;
-    --purp2: #BA7DFF;
-    --purp3: #A55FF5;
-    --secondary: #F5F35F;
-    --yellow2: #A8A720;
-    --accent: #88E619;
+  --primary: #7719e6;
+  --bg-color: #3a0d6e;
+  --purp2: #ba7dff;
+  --purp3: #a55ff5;
+  --secondary: #f5f35f;
+  --yellow2: #a8a720;
+  /* --accent: #88E619; */
+  --accent: #19e6d5;
+  --section-color: #4519e6;
 
-    --white: #ffffff;
-    --gray1: #333333;
-    --gray2: #555555;
-    --gray3: #cccccc;
-    --gray4: #aaaaaa;
-    --black: #000000;
+  --white: #ffffff;
+  --gray1: #333333;
+  --gray2: #555555;
+  --gray3: #cccccc;
+  --gray4: #aaaaaa;
+  --gray5: #1a1a1a;
+  --gray6: #2b2b2b;
+  --black: #030303;
+
+  /* --nav-background: rgba(43, 43, 43, .8); */
+  --nav-background: rgba(256, 256, 256, 0.2);
+  --main-background: #1a1a1a;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* background-color: var(--bg-color); */
+  background-color: var(--main-background);
+  color: var(--white);
+  margin: 0;
+  font-family: "roboto";
+  /* background-image: url("../files/studioCropped2.jpg"); */
+  background-repeat: no-repeat;
 }
+main {
+  padding: 0 4%;
+}
+
+/* a {
+    color: var(--accent);
+} */
 
 nav {
-    padding: 15px;
-    background-color: var(--primary);
-    color: var(--secondary);
+  background-color: var(--nav-background);
+  color: var(--white);
+  /* opacity: .5; */
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 24px 0;
+  /* padding: 2% 0px 1% 1%; */
+  padding: 2% 1%;
+  border-radius: 0 0 10px 10px;
 }
 
-nav > a {
-    color: var(--secondary);
+.nav-links {
+  display: flex;
+  justify-content: flex-start;
+  /* background-color: red; */
 }
 
-#nav-header{
-    /* display: inline-block; */
-    font-size: 28px;
-    margin: 0;
-    /* color: red; */
+.nav-links > a {
+  color: var(--accent);
+  margin: 0 24px 0 0;
+  font-size: 20px;
+  /* font-family: "roboto"; */
+  /* font-family: 'Ubuntu'; */
+  font-family: "Bebas Neue", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: none;
+}
+/* 
+#nav-header {
+} */
+
+#nav-header > h1 {
+  font-size: 48px;
+  font-family: "Cairo", "Ubuntu", 'Courier New', Courier, monospace;
+  margin: 0;
+}
+
+@media only screen and (max-width: 990px) {
+  .nav-links > a {
+    font-size: 18px;
+  }
+  #nav-header > h1 {
+    font-size: 36px;
+    margin-bottom: 14px;
+  }
 }
 
 /* JUMBO */
-#billboard {
-    background-color: var(--gray1);
-    color: var(--white)
-}
+/* #billboard {
+    background-color: var(--gray5);
+    color: var(--white);
+    margin: 0;
+} */
 
 /* SECTIONS */
 .section {
-    padding: 20px;
+    padding: 2% 5% 2% 5%;
+    margin: 1% 0;
+    /* background-color: var(--section-color); */
 }
 
-.section-header {
+/* .section-header {
 
-}
+} */
 
 /* FORM */
-.form-element {
+/* .form-element {
 
+} */
+
+/* #personal-pdf {
+    width: 100%;
+    height: 100%;
+} */
+
+/* .work-box {
+    border-style: dashed;
+    border-color: var(--secondary);
+    border-radius: 1rem;
+    margin: 12px 0;
+    padding: 3%;
+    background-color: var(--bg-color);
+} */
+
+/* .work-box > p {
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+/* .prev-title {
+    font-weight: bolder;
+} */
+
+/* footer {
+    padding: 1%;
 }
+
+footer > a {
+    margin-right: 20px;
+} */
