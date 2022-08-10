@@ -7,14 +7,22 @@
 - 8/8 10:18 attempted pdf, looked bad, decided on standard section for resume
 - 8/8 10:40 added in previous work section, used resume
 
-- 8/9 4:04  - commented out styling for redesign, looked at some examples here: https://blog.hubspot.com/marketing/best-personal-websites
+- 8/9 4:04   - commented out styling for redesign, looked at some examples here: https://blog.hubspot.com/marketing/best-personal-websites
 - somewhere in here - opted to use Bootstrap for grids
-- 8/9 4:19  - https://www.sliderrevolution.com/design/website-header/
-- 8/9 4:30  - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-- 8/9 4:39  - https://developers.google.com/fonts/docs/getting_started / https://fonts.google.com/betterspecimen/Roboto?sort=popularity
-- 8/9 4:59  - Set background image
-- 8/9 7:20  - Added fonts
-- 8/9 8:25  - Started filling out project section. Added images
+- 8/9 4:19   - https://www.sliderrevolution.com/design/website-header/
+- 8/9 4:30   - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- 8/9 4:39   - https://developers.google.com/fonts/docs/getting_started / https://fonts.google.com/betterspecimen/Roboto?sort=popularity
+- 8/9 4:59   - Set background image
+- 8/9 7:20   - Added fonts
+- 8/9 8:25   - Started filling out project section. Added images
 - 8/9 10:00  - Found more images for myself, major design overhaul
 - 8/9 11:30  - Lots of bootstrap involved now, using grid and col sizes to size up page: https://getbootstrap.com/docs/4.0/layout/grid/
 - 8/10 12:00 - Did a great deal of sizing for mobile and everything inbetween
+- 8/10 1:35  - Site is in a good state, it's about bed time, writing README.md
+
+LEFT TO DO:
+* Style the form
+* Connect to the JavaScript backend
+* Create some kind of JS animation (folding project drawers?)
+* Deploy
+* Update README.md with the correct deployment link
