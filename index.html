@@ -44,7 +44,6 @@
       </div>
     </nav>
     <main>
-
       <!-- ABOUT -->
 
       <div id="about" class="section">
@@ -61,7 +60,7 @@
               student in the Computer Science program at Portland State
               University. I began my journey here as a post-baccalaureate
               student with the goal to learn how to write great software. After
-              working my way through the required undergrad, I've now began the
+              working through the required undergrad, I've now began the
               master's program in hopes of gaining the knowledge that can help
               me pursue a career in software development.
             </p>
@@ -83,11 +82,14 @@
               >
             </p>
             <p>
-              Outside of the computer, you can find me participating in the
-              Portland music scene in a variety of ways. I like to make music at
-              home, play drums in local bands across town and even work as an
-              audio engineer from time to time. Beyond that, I am an avid gamer
-              and plan on making some games of my own as well.
+              Outside of the computer,
+              <span class="hide-text"
+                >you can find me participating in the Portland music scene in a
+                variety of ways. </span
+              >I like to make music at home, play drums in local bands across
+              town and even work as an audio engineer from time to time. Beyond
+              that, I am an avid gamer and plan on making some games of my own
+              as well.
             </p>
             <p>
               I believe that software can be a powerful tool to enrich people's
@@ -153,16 +155,16 @@
 
             <div class="work-description">
               <!-- <div class="col-sm-12 col-md-9"> -->
-                <p>Freelance Audio Engineer 2017 - Present</p>
-                <p>
-                  Professional sound engineer with years of experience in the
-                  local Portland music scene. Learned under the guidance of
-                  Billy Oskay at
-                  <a href="https://bigredstudio.com/" target="_blank"
-                    >Big Red Studio</a
-                  >
-                  in Corbett, Oregon.
-                </p>
+              <p>Freelance Audio Engineer 2017 - Present</p>
+              <p>
+                Professional sound engineer with years of experience in the
+                local Portland music scene. Learned under the guidance of Billy
+                Oskay at
+                <a href="https://bigredstudio.com/" target="_blank"
+                  >Big Red Studio</a
+                >
+                in Corbett, Oregon.
+              </p>
               <!-- </div> -->
               <!-- <div class="col-md-3 d-none d-md-block"> -->
               <!-- <div class="d-none d-md-block col-md-3 ">
@@ -187,48 +189,54 @@
 
       <div id="projects" class="section">
         <h2 class="section-header">Projects</h2>
-        <div class="project-box">
-          <a
-            href="https://gitlab.cecs.pdx.edu/esohn/fresh-synth-of-bel-air"
-            target="_blank"
-            class="section-subtitle"
-            >Fresh Synth of Bel-Air</a
-          >
-          <p class="project-text">
-            Fresh Synth of Bel Air is A fun, fully featured cross-platform
-            synthesizer to play around with. Created for Bart Massey's CS-510
-            Music, Sound and Computers course at PSU in Spring 2022. This was
-            created using the
-            <a href="https://juce.com/" target="_blank">Juce</a> framework and
-            features MIDI control, monophonic playback with selectable
-            waveshapes, switchable ladder filter, and amplitude and filter
-            envelopes. Supports VST3, OSX, Windows and Linux.
-          </p>
+
+        <div class="project-box row">
+          <div class="col-xl-5 col-md-12">
+            <a
+              href="https://gitlab.cecs.pdx.edu/esohn/fresh-synth-of-bel-air"
+              target="_blank"
+              class="section-subtitle"
+              >Fresh Synth of Bel-Air</a
+            >
+            <p class="project-text">
+              Fresh Synth of Bel Air is A fun, fully featured cross-platform
+              synthesizer to play around with. Created for Bart Massey's CS-510
+              Music, Sound and Computers course at PSU in Spring 2022. This was
+              created using the
+              <a href="https://juce.com/" target="_blank">Juce</a> framework and
+              features MIDI control, monophonic playback with selectable
+              waveshapes, switchable ladder filter, and amplitude and filter
+              envelopes. Supports VST3, OSX, Windows and Linux.
+            </p>
+          </div>
           <img
             src="./files/FreshSynth.jpg"
             alt="fresh synth interface"
-            class="project-img"
+            class="project-img col-lg-7"
           />
         </div>
-        <div class="project-box">
-          <a
-            href="https://github.com/unfinishedideas/RhythmCoach"
-            target="_blank"
-            class="section-subtitle"
-            >Rhythm Coach</a
-          >
-          <p class="project-text">
-            Rhythm Coach is a fun, web-based programmable drum machine app that
-            improves your sense of rhythmic timing! It uses
-            <a href="https://reactjs.org/" target="_blank">React</a> and the
-            <a href="https://tonejs.github.io/" target="_blank">ToneJS</a>
-            library for low latency playback to ensure that an accurate reading
-            is made of your timing.
-          </p>
+
+        <div class="project-box row">
+          <div class="col-xl-5 col-md-12">
+            <a
+              href="https://github.com/unfinishedideas/RhythmCoach"
+              target="_blank"
+              class="section-subtitle"
+              >Rhythm Coach</a
+            >
+            <p class="project-text">
+              Rhythm Coach is a fun, web-based programmable drum machine app
+              that improves your sense of rhythmic timing! It uses
+              <a href="https://reactjs.org/" target="_blank">React</a> and the
+              <a href="https://tonejs.github.io/" target="_blank">ToneJS</a>
+              library for low latency playback to ensure that an accurate
+              reading is made of your timing.
+            </p>
+          </div>
           <img
             src="./files/rhythmCoach.gif"
             alt="rhythm coach interface"
-            class="project-img"
+            class="project-img col-lg-7"
           />
         </div>
       </div>
@@ -236,29 +244,35 @@
       <!-- CONTACT -->
 
       <div id="contact" class="section">
-          <h2 class="section-header">Let's Connect</h2>
-          <h3>I'd love to hear from you!</h3>
-          <form id="contact-form">
-            <div class="form-element">
-              <label for="name">Name:</label>
-              <input type="text" id="name" />
-            </div>
+        <h2 class="section-header">Let's Connect</h2>
+        <h3>I'd love to hear from you!</h3>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name" class="col-form-label">Name:</label>
+            <input type="text" id="name" class="form-control" />
+          </div>
 
-            <div class="form-element">
-              <label for="email">Email:</label>
-              <input type="email" id="email" />
-            </div>
+          <div class="form-group">
+            <label for="email" class="col-form-label">Email:</label>
+            <input type="email" id="email" class="form-control" />
+          </div>
 
-            <div class="form-element">
-              <label for="message">Message:</label>
-              <textarea id="message" name="w3review" rows="4" cols="50"></textarea>
-            </div>
+          <div class="form-group">
+            <label for="message" class="col-form-label">Message:</label>
+            <textarea
+              id="message"
+              name="w3review"
+              rows="4"
+              cols="50"
+              class="form-control"
+            ></textarea>
+          </div>
 
-            <div class="form-element">
-              <input type="submit" value="Submit" />
-              <input type="reset" value="Reset" />
-            </div>
-          </form>
+          <div class="form-group">
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+          </div>
+        </form>
       </div>
 
       <img
