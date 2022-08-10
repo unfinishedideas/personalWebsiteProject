@@ -1,7 +1,7 @@
 # Pete's Space (Personal Page for Peter Wells)
 `Created for CS-510: Intro to Web Development Summer 2022`
 
-Deployment link: [I HAVENT DEPLOYED YET!!! HOPEFULLY I SEE THIS BEFORE I POST THE PROJECT](https://www.google.com)
+Deployment link: [Github: Pete's Space](https://unfinishedideas.github.io/personalWebsiteProject/)
 
 ## Description
 
