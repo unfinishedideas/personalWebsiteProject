@@ -109,7 +109,22 @@
         <h2 class="section-header">Experience</h2>
 
         <div class="row">
-          <div class="work-box col-lg-4">
+          <div class="work-box col-lg-3 col-md-6">
+            <a href="https://www.nwea.org//" target="_blank" class="prev-title"
+              >NWEA</a
+            >
+            <div class="work-description">
+              <p>Software Engineer 2022 - Present</p>
+              <p>
+                Back-end software engineering intern with NWEA. Presently
+                learning how to interface with an enterprise-sized
+                infrastructure and writing code to better serve the students of
+                today.
+              </p>
+            </div>
+          </div>
+
+          <div class="work-box col-lg-3 col-md-6">
             <a
               href="https://www.nombolo.com/"
               target="_blank"
@@ -127,7 +142,7 @@
             </div>
           </div>
 
-          <div class="work-box col-lg-4">
+          <div class="work-box col-lg-3 col-md-6">
             <a
               href="https://www.epicodus.com/"
               target="_blank"
@@ -145,7 +160,7 @@
             </div>
           </div>
 
-          <div class="work-box col-lg-4">
+          <div class="work-box col-lg-3 col-md-6">
             <a
               href="https://bigredstudio.com/staff/"
               target="_blank"
@@ -165,15 +180,6 @@
                 >
                 in Corbett, Oregon.
               </p>
-              <!-- </div> -->
-              <!-- <div class="col-md-3 d-none d-md-block"> -->
-              <!-- <div class="d-none d-md-block col-md-3 ">
-                <img
-                  src="./files/studioCropped.jpg"
-                  alt="me at the studio"
-                  class="work-img "
-                />
-              </div> -->
             </div>
           </div>
         </div>
@@ -248,19 +254,19 @@
         <h3>I'd love to hear from you!</h3>
         <form id="contact-form">
           <div class="form-group">
-            <label for="name" class="col-form-label">Name:</label>
-            <input type="text" id="name" class="form-control" />
+            <label for="inputName" class="col-form-label">Name:</label>
+            <input type="text" id="inputName" class="form-control" />
           </div>
 
           <div class="form-group">
-            <label for="email" class="col-form-label">Email:</label>
-            <input type="email" id="email" class="form-control" />
+            <label for="inputEmail" class="col-form-label">Email:</label>
+            <input type="email" id="inputEmail" class="form-control" />
           </div>
 
           <div class="form-group">
-            <label for="message" class="col-form-label">Message:</label>
+            <label for="inputMessage" class="col-form-label">Message:</label>
             <textarea
-              id="message"
+              id="inputMessage"
               name="w3review"
               rows="4"
               cols="50"
@@ -269,8 +275,16 @@
           </div>
 
           <div class="form-group">
-            <input type="submit" value="Submit" />
-            <input type="reset" value="Reset" />
+            <input
+              type="submit"
+              value="Submit"
+              class="btn btn-primary form-button"
+            />
+            <input
+              type="reset"
+              value="Reset"
+              class="btn btn-secondary form-button"
+            />
           </div>
         </form>
       </div>

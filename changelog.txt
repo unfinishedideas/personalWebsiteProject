@@ -20,15 +20,20 @@
 - 8/9 11:30  - Lots of bootstrap involved now, using grid and col sizes to size up page: https://getbootstrap.com/docs/4.0/layout/grid/
 - 8/10 12:00 - Did a great deal of sizing for mobile and everything inbetween
 - 8/10 1:35  - Site is in a good state, it's about bed time, writing README.md
+
 - 8/10 11:45 - Styled form with bootstrap
 - 8/10 12:00 - Edited about text, added columns to projects section
+- 8/10 12:45 - Copied my script from homework for form submission, added page load listener from https://stackoverflow.com/questions/1033398/how-to-execute-a-function-when-page-has-fully-loaded
+
+- 8/10 2:12  - Fixed form labels/inputs mismatch, changed link hover color
+- 8/10 2:19  - Added NWEA to work experience, rearranged project columns to accomodate
+
 
 LEFT TO DO:
-* Style the form
-* Connect to the JavaScript backend
-* Create some kind of JS animation (folding project drawers?)
+* Create some kind of JS animation (folding project drawers / on form submit change to thank you message?)
+* fix form contrast error
+* removed unused colors
 * Deploy
-* Update README.md with the correct deployment link\
+* Update README.md with the correct deployment link
 * Finish journal
 * write discussion post
-* removed unused colors

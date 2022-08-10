@@ -16,7 +16,8 @@
   --bg-color: rgba(20, 20, 20, 1);
   --purp2: #ba7dff;
   --purp3: #a55ff5;
-  --secondary: #f5f35f;
+  /* --secondary: #f5f35f; */
+  --secondary: #7719e6;
   --yellow2: #a8a720;
   --accent: #19e6d5;
   --accent2: #88e619;
@@ -58,7 +59,7 @@ body {
 }
 
 a {
-  color: var(--accent2);
+  color: var(--accent);
 }
 a:hover {
   color: var(--secondary);
@@ -80,15 +81,10 @@ nav {
 }
 
 .nav-links > a {
-  color: var(--accent);
   margin: 0 24px 0 0;
   font-size: 24px;
   font-family: var(--link_font);
   text-decoration: none;
-}
-
-.nav-links > a:hover {
-  color: var(--secondary);
 }
 
 #nav-header > h1 {
