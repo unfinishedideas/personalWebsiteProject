@@ -12,3 +12,5 @@
 - 8/9 4:30 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - 8/9 4:39 - https://developers.google.com/fonts/docs/getting_started / https://fonts.google.com/betterspecimen/Roboto?sort=popularity
 - 8/9 4:59 - Set background image
+- 8/9 7:20 - Added fonts
+- 8/9 8:25 - Started filling out project section. Incl images

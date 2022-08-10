@@ -49,7 +49,7 @@
     <main>
       <div id="about" class="section">
         <h3 class="section-header">About</h3>
-        <h4 class="section-subtitle">A little about me</h4>
+        <!-- <h4 class="section-subtitle">A little about me</h4> -->
         <p>
           Greetings! My name is Peter Wells and I am a graduate student in the
           Computer Science program at Portland State University. I began my
@@ -88,7 +88,7 @@
 
       <div id="experience" class="section">
         <h3 class="section-header">Experience</h3>
-        <h4 class="section-subtitle">Some of the places I've been</h4>
+        <!-- <h4 class="section-subtitle">Some of the places I've been</h4> -->
         <div class="work-box">
           <p class="prev-title">Nombolo</p>
           <p>Software Engineer 2020 - 2021</p>
@@ -113,43 +113,60 @@
         <div class="work-box">
           <p class="prev-title">Audio Engineer</p>
           <p>Freelance Audio Engineer 2017 - Present</p>
-          <p>
-            Professional sound engineer with years of experience in the local
-            Portland music scene. Learned under the guidance of Billy Oskay at
-            <a href="https://bigredstudio.com/">Big Red Studio</a> in Corbett,
-            Oregon.
-          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <p>
+                Professional sound engineer with years of experience in the
+                local Portland music scene. Learned under the guidance of Billy
+                Oskay at
+                <a href="https://bigredstudio.com/">Big Red Studio</a> in
+                Corbett, Oregon.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <img src="./files/studioCropped.jpg" class="work-img" />
+            </div>
+          </div>
         </div>
       </div>
 
       <div id="projects" class="section">
         <h3 class="section-header">Projects</h3>
-        <h4 class="section-subtitle">Projects I've completed</h4>
         <div class="project-box">
-          <a href="https://gitlab.cecs.pdx.edu/esohn/fresh-synth-of-bel-air"
-            >Fresh Synth of Bel Air</a
-          >
+          <h4 class="section-subtitle">Fresh Synth of Bel-Air</h4>
           <p class="project-text">
-            A fun cross-platform synthesizer to play around with. Created for
-            Bart Massey's CS-510 Music, Sound and Computers course at PSU in
-            Spring 2022
+            <a href="https://gitlab.cecs.pdx.edu/esohn/fresh-synth-of-bel-air"
+              >Fresh Synth of Bel Air</a
+            >
+            is A fun, fully featured cross-platform synthesizer to play around
+            with. Created for Bart Massey's CS-510 Music, Sound and Computers
+            course at PSU in Spring 2022. This was created using the
+            <a href="https://juce.com/" target="_blank">Juce</a> framework and
+            features MIDI control, monophonic playback with selectable
+            waveshapes, switchable ladder filter, and amplitude and filter
+            envelopes. Supports VST3, OSX, Windows and Linux.
           </p>
+          <img src="./files/FreshSynth.jpg" />
         </div>
 
         <div class="project-box">
-          <a href="https://github.com/unfinishedideas/RhythmCoach"
-            >Rhythm Coach</a
-          >
+          <h4 class="section-subtitle">Rhythm Coach</h4>
           <p class="project-text">
-            Improve your sense of rhythmic timing with this fun
-            <a href="https://reactjs.org/">React</a> based drum machine app!
+            <a href="https://github.com/unfinishedideas/RhythmCoach"
+              >Rhythm Coach</a
+            >
+            is a fun, web-based programmable drum machine app that
+            improves your sense of rhythmic timing! It uses React and the
+            Tone.JS library for low latency playback to ensure that an accurate
+            reading is made of your timing.
           </p>
+          <img src="./files/rhythmCoach.gif"/>
         </div>
       </div>
 
       <div id="contact" class="section">
         <h3 class="section-header">Contact</h3>
-        <h4 class="section-subtitle">Let's connect!</h4>
+        <!-- <h4 class="section-subtitle">Let's connect!</h4> -->
 
         <form id="contact-form">
           <div class="form-element">
@@ -174,7 +191,7 @@
         </form>
       </div>
       <footer>
-        <a href="#top">Home</a>
+        <!-- <a href="#top">Home</a> -->
         <a href="#about">About</a>
         <a href="#previous-work">Previous Work</a>
         <a href="#projects">Projects</a>
