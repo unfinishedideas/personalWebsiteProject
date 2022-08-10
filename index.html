@@ -33,10 +33,10 @@
   <body>
     <nav id="top" class="row">
       <div class="col-lg-1"></div>
-      <div class="col-lg-6" id="nav-header">
+      <div class="col-lg-7" id="nav-header">
         <h1>Pete's Space</h1>
       </div>
-      <div class="col-lg-5 nav-links">
+      <div class="col-lg-4 nav-links">
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
@@ -116,7 +116,7 @@
             <div class="work-description">
               <p>Software Engineer 2022 - Present</p>
               <p>
-                Back-end software engineering intern with NWEA. Presently
+                Back-end software engineering intern with Northwest Evaluation Association (NWEA). Presently
                 learning how to interface with an enterprise-sized
                 infrastructure and writing code to better serve the students of
                 today.
@@ -169,7 +169,6 @@
             >
 
             <div class="work-description">
-              <!-- <div class="col-sm-12 col-md-9"> -->
               <p>Freelance Audio Engineer 2017 - Present</p>
               <p>
                 Professional sound engineer with years of experience in the
@@ -218,7 +217,7 @@
           <img
             src="./files/FreshSynth.jpg"
             alt="fresh synth interface"
-            class="project-img col-lg-7"
+            class="project-img col-xl-7 col-lg-12"
           />
         </div>
 
@@ -242,7 +241,7 @@
           <img
             src="./files/rhythmCoach.gif"
             alt="rhythm coach interface"
-            class="project-img col-lg-7"
+            class="project-img col-xl-7 col-lg-12"
           />
         </div>
       </div>
@@ -255,12 +254,23 @@
         <form id="contact-form">
           <div class="form-group">
             <label for="inputName" class="col-form-label">Name:</label>
-            <input type="text" id="inputName" class="form-control" />
+            <input
+              type="text"
+              id="inputName"
+              class="form-control"
+              placeholder="Enter name"
+              required
+            />
           </div>
 
           <div class="form-group">
             <label for="inputEmail" class="col-form-label">Email:</label>
-            <input type="email" id="inputEmail" class="form-control" />
+            <input
+              type="email"
+              id="inputEmail"
+              class="form-control"
+              placeholder="name@example.com"
+            />
           </div>
 
           <div class="form-group">
@@ -271,6 +281,8 @@
               rows="4"
               cols="50"
               class="form-control"
+              placeholder="Enter a short message"
+              required
             ></textarea>
           </div>
 

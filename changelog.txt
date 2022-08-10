@@ -27,10 +27,12 @@
 
 - 8/10 2:12  - Fixed form labels/inputs mismatch, changed link hover color
 - 8/10 2:19  - Added NWEA to work experience, rearranged project columns to accomodate
+- 8/10 2:25  - Adjusted project images/columns to better stack when scaling
+- 8/10 2:50  - Adjusting form defaults / requirements, added JS code to replace form with a thank you on submit
+- 8/10 3:30  - Noticed and fixed issue with Nav bar extending beyond the size of the screen
 
 
 LEFT TO DO:
-* Create some kind of JS animation (folding project drawers / on form submit change to thank you message?)
 * fix form contrast error
 * removed unused colors
 * Deploy
