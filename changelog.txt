@@ -25,6 +25,7 @@
 - 8/10 12:00 - Edited about text, added columns to projects section
 - 8/10 12:45 - Copied my script from homework for form submission, added page load listener from https://stackoverflow.com/questions/1033398/how-to-execute-a-function-when-page-has-fully-loaded
 
+- 8/10 1:30  - Injected html using JavaScript.
 - 8/10 2:12  - Fixed form labels/inputs mismatch, changed link hover color
 - 8/10 2:19  - Added NWEA to work experience, rearranged project columns to accomodate
 - 8/10 2:25  - Adjusted project images/columns to better stack when scaling
